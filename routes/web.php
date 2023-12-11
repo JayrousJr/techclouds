@@ -65,7 +65,7 @@ Route::get('/contact', [SiteLinkController::class, 'contact']);
 Route::get('/gallery', [SiteLinkController::class, 'gallery']);
 Route::get('/qdkFkcldLTVdDTWcyaEJYSWpRR01taOCI7czoY2OiJfZDmxhc2giO2ER6Mjp7{project}czozOiJvbGQiO2E6MDAp7fXM6MYzoibmRV3IjthOjA6e319Uczo5OiJfcHS', [SiteLinkController::class, 'viewproject']);
 Route::get('/cmwiO3TM6MzE6Imh0dCA6Ly9sb2NhHbGhvc3Q6ODAwMC9zZXJ2aWNlLTIiO31zOjY6Il9mbGUFzaC{service}I7YTDoyOntzOjM6ImS9s', [SiteLinkController::class, 'serviceSingle']);
-Route::get('/ntzOjM6TM6MzE6Imh0dCA6Ly9sbJ2NO3HbG3Qmwi2DhaWNlLFza6OvcAwhcCYbTIiDoIUyO6{blog}Il9mO31zOjG7YTImSMC9zZX9s', [SiteLinkControlle::class, 'blog']);
+Route::get('/ntzOjM6TM6MzE6Imh0dCA6Ly9sbJ2NO3HbG3Qmwi2DhaWNlLFza6OvcAwhcCYbTIiDoIUyO6{blog}Il9mO31zOjG7YTImSMC9zZX9s', [SiteLinkController::class, 'blog']);
 Route::get('/projects', [SiteLinkController::class, 'projects']);
 
 
