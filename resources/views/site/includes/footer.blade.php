@@ -46,7 +46,7 @@
         <div class="row text-center">
             <div class="col-md-6 col-s-12 ">
                 <p class="copyright">Copyright &copy;<script>
-                        document.write(new Date().getFullYear());
+                    document.write(new Date().getFullYear());
                     </script>
                 </p>
             </div>
@@ -100,19 +100,61 @@
 
 
 <script>
-    $(document).ready(function() {
-        //hide the notification after 2seconds  
-        setTimeout(function() {
-            $("#notification").fadeOut('slow');
-        }, 15000);
-    });
+$(document).ready(function() {
+    //hide the notification after 2seconds  
+    setTimeout(function() {
+        $("#notification").fadeOut('slow');
+    }, 15000);
+});
 
-    $(document).ready(function() {
-        //hide the notification after 2seconds  
-        setTimeout(function() {
-            $("#feddback").fadeOut('slow');
-        }, 5000);
-    });
+$(document).ready(function() {
+    //hide the notification after 2seconds  
+    setTimeout(function() {
+        $("#feddback").fadeOut('slow');
+    }, 5000);
+});
+</script>
+<!--chat bot-->
+<script defer async>
+document.addEventListener('DOMContentLoaded', function() {
+    // setting global variables
+    window.botId = 2441
+
+    // create div with id = sarufi-chatbox
+    const div = document.createElement("div")
+    div.id = "sarufi-chatbox"
+    document.body.appendChild(div)
+
+    // create and attach script tag
+    const script = document.createElement("script")
+    script.crossOrigin = true
+    script.type = "module"
+    script.src = "https://cdn.jsdelivr.net/gh/flexcodelabs/sarufi-chatbox/example/vanilla-js/script.js"
+    document.head.appendChild(script)
+
+    // create and attach css
+    const style = document.createElement("link")
+    style.crossOrigin = true
+    style.rel = "stylesheet"
+    style.href = "https://cdn.jsdelivr.net/gh/flexcodelabs/sarufi-chatbox/example/vanilla-js/style.css"
+    document.head.appendChild(style)
+});
+</script>
+<!--chat bot-->
+<script>
+$(document).ready(function() {
+    //hide the notification after 2seconds  
+    setTimeout(function() {
+        $("#notification").fadeOut('slow');
+    }, 15000);
+});
+
+$(document).ready(function() {
+    //hide the notification after 2seconds  
+    setTimeout(function() {
+        $("#feddback").fadeOut('slow');
+    }, 5000);
+});
 </script>
 </body>
 
