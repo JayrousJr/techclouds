@@ -167,7 +167,7 @@
 
 </section>
 
-<section class="site-section block__45439 bg-light">
+<!-- <section class="site-section block__45439 bg-light">
     <div class="container">
         <div class="row mb-5">
             <div class="col-12 text-center" data-aos="fade">
@@ -211,6 +211,6 @@
 
         </div>
     </div>
-</section>
+</section> -->
 
 @include('/site/includes/footer')
