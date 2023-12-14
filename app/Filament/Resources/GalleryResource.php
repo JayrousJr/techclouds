@@ -34,9 +34,9 @@ class GalleryResource extends Resource
                     ->required()
                     ->image()
                     ->imageResizeMode('cover')
-                    // ->imageCropAspectRatio('1:1')
-                    // ->imageResizeTargetWidth('800')
-                    // ->imageResizeTargetHeight('800')
+                    ->imageCropAspectRatio('1:1')
+                    ->imageResizeTargetWidth('800')
+                    ->imageResizeTargetHeight('800')
                     ->imageEditor()
                     ->getUploadedFileNameForStorageUsing(function (TemporaryUploadedFile $file): string {
                         $fileName = $file->hashName();
