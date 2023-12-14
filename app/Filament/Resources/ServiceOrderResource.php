@@ -98,11 +98,11 @@ class ServiceOrderResource extends Resource
                 Forms\Components\DatePicker::make('date_to_finish')
                     ->label('Ending Date')->readonly()
                     ->readonly(),
-                Forms\Components\TextArea::make('project_role')
+                Forms\Components\Textarea::make('project_role')
                     ->label('Developer Comments')
                     ->readonly()
                     ->label('Project Role'),
-                Forms\Components\TextArea::make('Developer_Comments')
+                Forms\Components\Textarea::make('Developer_Comments')
                     ->label('Developer Comments')
                     ->readonly(),
                 Forms\Components\Toggle::make('paid')
