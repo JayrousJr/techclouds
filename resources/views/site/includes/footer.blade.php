@@ -46,7 +46,7 @@
         <div class="row text-center">
             <div class="col-md-6 col-s-12 ">
                 <p class="copyright">Copyright &copy;<script>
-                        document.write(new Date().getFullYear());
+                    document.write(new Date().getFullYear());
                     </script>
                 </p>
             </div>
@@ -98,25 +98,25 @@
 <script src="assets/js/mail-script.js"></script>
 <script src="assets/js/main.js"></script>
 
-<script src="https://chatbolt.ai/widget/addee1f1-f0af-44f6-b0a8-fd721c0acdea.js"></script>
+<!-- <script src="https://chatbolt.ai/widget/addee1f1-f0af-44f6-b0a8-fd721c0acdea.js"></script> -->
 
 <script>
-    $(document).ready(function() {
-        //hide the notification after 2seconds  
-        setTimeout(function() {
-            $("#notification").fadeOut('slow');
-        }, 15000);
-    });
+$(document).ready(function() {
+    //hide the notification after 2seconds  
+    setTimeout(function() {
+        $("#notification").fadeOut('slow');
+    }, 15000);
+});
 
-    $(document).ready(function() {
-        //hide the notification after 2seconds  
-        setTimeout(function() {
-            $("#feddback").fadeOut('slow');
-        }, 5000);
-    });
+$(document).ready(function() {
+    //hide the notification after 2seconds  
+    setTimeout(function() {
+        $("#feddback").fadeOut('slow');
+    }, 5000);
+});
 </script>
 <!--chat bot-->
-<!-- <script defer async>
+<script defer async>
 document.addEventListener('DOMContentLoaded', function() {
     // setting global variables
     window.botId = 2441
@@ -140,22 +140,22 @@ document.addEventListener('DOMContentLoaded', function() {
     style.href = "https://cdn.jsdelivr.net/gh/flexcodelabs/sarufi-chatbox/example/vanilla-js/style.css"
     document.head.appendChild(style)
 });
-</script> -->
+</script>
 <!--chat bot-->
 <script>
-    $(document).ready(function() {
-        //hide the notification after 2seconds  
-        setTimeout(function() {
-            $("#notification").fadeOut('slow');
-        }, 15000);
-    });
+$(document).ready(function() {
+    //hide the notification after 2seconds  
+    setTimeout(function() {
+        $("#notification").fadeOut('slow');
+    }, 15000);
+});
 
-    $(document).ready(function() {
-        //hide the notification after 2seconds  
-        setTimeout(function() {
-            $("#feddback").fadeOut('slow');
-        }, 5000);
-    });
+$(document).ready(function() {
+    //hide the notification after 2seconds  
+    setTimeout(function() {
+        $("#feddback").fadeOut('slow');
+    }, 5000);
+});
 </script>
 </body>
 
