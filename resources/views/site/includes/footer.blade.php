@@ -119,7 +119,7 @@ $(document).ready(function() {
 <script defer async>
 document.addEventListener('DOMContentLoaded', function() {
     // setting global variables
-    window.botId = 2441
+    window.botId = 2904
 
     // create div with id = sarufi-chatbox
     const div = document.createElement("div")
